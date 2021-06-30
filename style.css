@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+	font-family: 'poppins', sans-serif;
+}
+
+ul {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	top: 50px;
+	right: 20px;
+	z-index: 100;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	font-size: 21px;
+	margin-right: 50px;
+	text-decoration: none;
+	font-weight: 400;
+    color: #03203C;
+    opacity: 80%;
+	cursor: pointer;
+    padding: 10px 12px;
+    
+}
+
+li a:hover {
+    border-radius: 10px;
+    color: white;
+    background: darkgreen;
+    opacity: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container > .text {
+    flex-basis: 60%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.about {
+    font-size: 50px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.txt1 > span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+p {
+    line-height: 25px;
+    color: black;
+}
+
+.txt4 {
+    line-height: 30px;
+}
+
+.txt4 > span {
+    line-height: 40px;
+}
+
+span {
+    color: darkgreen;
+    font-weight: 500;
+}
+
+.image {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image > img {
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.about1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.container1 > .text {
+    flex-basis: 60%;
+    padding: 50px;
+}
+
+.txtcon {
+    display: flex;
+    margin: 40px 0;
+}
+
+.txt {
+    flex-basis: 70%;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+.txtimage {
+    flex-basis: 30%;
+    padding: 30px 0;
+}
+
+.txtimage > p {
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.txtimage > img {
+   margin: 0 40px;
+}
