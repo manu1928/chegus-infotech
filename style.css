@@ -70,6 +70,7 @@ p {
 
 .txt4 > span {
     line-height: 40px;
+    Font-size: 18px;
 }
 
 span {
@@ -115,10 +116,6 @@ span {
     flex-basis: 70%;
     font-size: 14px;
     padding: 0 30px;
-}
-
-.txt4 > span {
-     Font-size: 18px
 }
 
 .txtimage {
