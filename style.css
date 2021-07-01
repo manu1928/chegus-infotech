@@ -117,6 +117,10 @@ span {
     padding: 0 30px;
 }
 
+.txt4 > span {
+     Font-size: 18px
+}
+
 .txtimage {
     flex-basis: 30%;
     padding: 30px 0;
