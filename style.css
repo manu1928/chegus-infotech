@@ -4,6 +4,10 @@
 	font-family: 'poppins', sans-serif;
 }
 
+body {
+    background-color: #F2F2F2;
+}
+
 ul {
 	position: absolute;
 	padding: 0;
@@ -14,8 +18,15 @@ ul {
 	z-index: 100;
 }
 
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
 li {
 	list-style-type: none;
+    cursor: pointer;
 }
 
 li a {
@@ -37,6 +48,28 @@ li a:hover {
     opacity: 100%;
 }
 
+.home {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.home > img {
+    border-radius: 10px;
+}
+
+.home > p {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+    font-size: 18px;
+    color: #03203C;
+}
+
+.home > p span {
+    font-size: 20px;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -45,13 +78,12 @@ li a:hover {
 .container > .text {
     flex-basis: 60%;
     padding: 50px;
-    margin-top: 50px;
 }
 
 .about {
     font-size: 50px;
     font-weight: 500;
-    color: darkblue;
+    color: darkgreen;
 }
 
 .txt1 > span {
@@ -70,7 +102,26 @@ p {
 
 .txt4 > span {
     line-height: 40px;
-    Font-size: 18px;
+    font-size: 20px;
+}
+
+.txt41 {
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.txt41 > span {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.txt5 {
+    margin-top: 40px;
+}
+
+.txt5 > span {
+    font-size: 18px;
 }
 
 span {
@@ -80,7 +131,8 @@ span {
 
 .image {
     flex-basis: 40%;
-    display: flex;
+    /* display: flex; */
+    margin-top: 250px;
     align-items: center;
     justify-content: center;
 }
@@ -89,7 +141,8 @@ span {
     background-size: cover;
     border-radius: 10px;
     width: 400px;
-    height: 600px;
+    margin: 50px 0;
+    height: 400px;
 }
 
 .container1 {
@@ -99,7 +152,7 @@ span {
 .about1 {
     font-size: 35px;
     font-weight: 500;
-    color: darkblue;
+    color: darkgreen;
 }
 
 .container1 > .text {
@@ -118,6 +171,10 @@ span {
     padding: 0 30px;
 }
 
+.txt p {
+    color: #03203C;
+}
+
 .txtimage {
     flex-basis: 30%;
     padding: 30px 0;
@@ -131,4 +188,34 @@ span {
 
 .txtimage > img {
    margin: 0 40px;
+}
+
+.manage {
+    height: 600px;
+}
+
+.manage {
+    flex-basis: 40%;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manage > img {
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer > .copyright {
+	margin-top: 40px;
+	color: gray;
+	letter-spacing: .5px;
+	font-weight: 300;
 }
